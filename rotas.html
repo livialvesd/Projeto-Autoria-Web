@@ -3,75 +3,78 @@
     <head>
         <meta charset="UFT-8">
         <title>Rotas</title>
+        <link href="estilo.css" rel="stylesheet">
     </head>
     <body>
-    <!--criação da barra de links-->
-        <p>
-            <a href="file:///C:/Users/livis/Desktop/paradisetour.html">Página Inicial</a>
-            |
-            <a href="file:///C:/Users/livis/Desktop/quemsomos.html">Quem somos</a>
-            |
-            <a href="file:///C:/Users/livis/Desktop/rotas.html">Rotas</a>
-        </p>        
-        <h1>Rotas > Passagens</h1>
+        <nav class="menu">
+            <ul> 
+                <li><a href="index.html"><b>Página Inicial</b></a></li>
+                <li><a href="quemsomos.html"><b>Quem somos?</b></a></li>
+                <li><a href="rotas.html"><b>Rotas</b></a></li>
+                <li><a href="reclamacoes.html"><b>Chamados</b></a></li>
+                <li><a href="cotratacao.html"><b>Contratações</b></a></li>
+            </ul>
+        </nav> 
+        <h1>Rotas - Passagens</h1>
         <table>
-        <colgroup> <!--personalização da tabela-->
-            <col span='5' style="background-color: rgb(194, 230, 245);">            
-        </colgroup>
-            <thead>
-                <tr>
-                    <th>ROTAS</th>
-                    <th>EMBARQUE</th>
-                    <th>DESEMBARQUE</th>
-                    <th>PREÇO</th>
-                    <th> - </th>
-                </tr>
-            <tbody>
-                <tr>
-                    <td><a href="file:///C:/Users/livis/Desktop/nataljp.html">Natal (RN) > João Pessoa (PB)</a></td>
-                    <td>8h30<br>14h30</td>
-                    <td>11h30<br>17h30</td>
-                    <td>R$45,00</td>
-                    <td>Wi-Fi<br>Ar-condicionado<br>Banheiro<br>48 assentos</td>
-                </tr>
-                <tr>
-                    <td>Natal (RN) > Recife (PE)</td>
-                    <td>7h00<br>12h00</td>
-                    <td>11h30<br>17h00</td>
-                    <td>R$90,00</td>
-                    <td>Wi-Fi<br>Ar-condicionado<br>Banheiro<br>48 assentos</td>
-                </tr>
-                <tr>
-                    <td>João Pessoa (PB) > Natal (RN)</td>
-                    <td>7h30<br>12h00</td>
-                    <td>10h30<br>18h00</td>
-                    <td>R$45,00</td>
-                    <td>Wi-Fi<br>Ar-condicionado<br>Banheiro<br>48 assentos</td>
-                </tr>
-                <tr>
-                    <td>João Pessoa (PB) > Recife (PE)</td>
-                    <td>9h30<br>15h30</td>
-                    <td>12h00<br>18h00</td>
-                    <td>R$40,00</td>
-                    <td>Wi-Fi<br>Ar-condicionado<br>Banheiro<br>48 assentos</td>
-                </tr>
-                <tr>
-                    <td>Recife (PE) > João Pessoa (PB)</td>
-                    <td>9h30<br>15h30</td>
-                    <td>12h00<br>18h00</td>
-                    <td>R$40,00</td>
-                    <td>Wi-Fi<br>Ar-condicionado<br>Banheiro<br>48 assentos</td>
-                </tr>
-                <tr>
-                    <td>Recife (PE) > Natal</td>
-                    <td>9h00<br>14h00</td>
-                    <td>14h00<br>19h00</td>
-                    <td>R$90,00</td>
-                    <td>Wi-Fi<br>Ar-condicionado<br>Banheiro<br>48 assentos</td>
-                </tr>
-            </tbody>
-            
-            </thead>
+            <!--<colgroup> 
+                <col span='5' style="background-color: rgb(194, 230, 245);">            
+            </colgroup> -->
+            <nav class="tab-rotas">
+                <thead>
+                    <tr>
+                        <th>ROTAS</th>
+                        <th>EMBARQUE</th>
+                        <th>DESEMBARQUE</th>
+                        <th>PREÇO</th>
+                        <th> - </th>
+                    </tr>
+                <tbody>
+                    <tr>
+                        <td><a href="file:///C:/Users/livis/Desktop/nataljp.html"><b>Natal (RN) > João Pessoa (PB)</b></a></td>
+                        <td>8h30<br>14h30</td>
+                        <td>11h30<br>17h30</td>
+                        <td>R$45,00</td>
+                        <td>Wi-Fi<br>Ar-condicionado<br>Banheiro<br>48 assentos</td>
+                    </tr>
+                    <tr>
+                        <td><a href="file:///C:/Users/livis/Desktop/natalrecife.html"><b>Natal (RN) > Recife (PE)</b></a></td>
+                        <td>7h00<br>12h00</td>
+                        <td>11h30<br>17h00</td>
+                        <td>R$90,00</td>
+                        <td>Wi-Fi<br>Ar-condicionado<br>Banheiro<br>48 assentos</td>
+                    </tr>
+                    <tr>
+                        <td><a href="file:///C:/Users/livis/Desktop/jpnatal.html"><b>João Pessoa (PB) > Natal (RN)></b></a></td>
+                        <td>7h30<br>12h00</td>
+                        <td>10h30<br>18h00</td>
+                        <td>R$45,00</td>
+                        <td>Wi-Fi<br>Ar-condicionado<br>Banheiro<br>48 assentos</td>
+                    </tr>
+                    <tr>
+                        <td><a href="file:///C:/Users/livis/Desktop/jprecife.html"><b>João Pessoa (PB) > Recife (PE)</b></a></td>
+                        <td>9h30<br>15h30</td>
+                        <td>12h00<br>18h00</td>
+                        <td>R$40,00</td>
+                        <td>Wi-Fi<br>Ar-condicionado<br>Banheiro<br>48 assentos</td>
+                    </tr>
+                    <tr>
+                        <td><a href="file:///C:/Users/livis/Desktop/recifejp.html"><b>Recife (PE) > João Pessoa (PB)</b></a></td>
+                        <td>9h30<br>15h30</td>
+                        <td>12h00<br>18h00</td>
+                        <td>R$40,00</td>
+                        <td>Wi-Fi<br>Ar-condicionado<br>Banheiro<br>48 assentos</td>
+                    </tr>
+                    <tr>
+                        <td><a href="file:///C:/Users/livis/Desktop/recifenatal.html"><b>Recife (PE) > Natal</b></a></td>
+                        <td>9h00<br>14h00</td>
+                        <td>14h00<br>19h00</td>
+                        <td>R$90,00</td>
+                        <td>Wi-Fi<br>Ar-condicionado<br>Banheiro<br>48 assentos</td>
+                    </tr>
+                </tbody>    
+                </thead>
+            </nav>
         </table>
     </body>
 </html>

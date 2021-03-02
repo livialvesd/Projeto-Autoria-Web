@@ -2,6 +2,8 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
         <title>Reclamações</title>
         <link href="estilo.css" rel="stylesheet">
     </head>
@@ -18,17 +20,17 @@
         <h1>Podemos ajudar?</h1>
         <h3>Preencha o pequeno formulário abaixo para que possamos resolver o seu problema.</h3>
         <form action="www.url.com" id="form1" name="form-login" method="POST">
-            <p>Nome do funcionário:<br> <input type="text" name="cName" id="dName"/></p>
-            <p>Assunto:<br><input type="text" name="tAssunto" id="dAssunto"/></p>
-            <p>Categoria: <br>
+            <p><label for="nome">Nome do funcionário:</label><br><input type="text" name="cName" id="dName"/></p>
+            <p><label for="assunto">Assunto:</label><br><input type="text" name="tAssunto" id="dAssunto"/></p>
+            <p><label for="categoria">Categoria:</label><br>
                 <select id="est" name="categorias">
                     <option value="administrativa">Administrativa</option>
                     <option value="gerencial">Gerencial</option>
                     <option value="operacional">Operacional</option>
                 </select></p>
-            <p>Detalhe sua reclamação na caixa de texto abaixo: <br> 
+            <p><label for="detalhes">Detalhe sua reclamação na caixa de texto abaixo:</label><br> 
                 <textarea name="reclamacoes" rows="10" cols="50"></textarea></p> <br>
-                <input class="bt-enviar" type="submit" name="Enviar">
+                <button type="submit">Enviar</button>
         </form>
     </body>
 
